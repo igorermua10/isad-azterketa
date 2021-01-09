@@ -1,6 +1,6 @@
 package ehu.isad;
 
-import ehu.isad.controllers.ui.ProbaController;
+import ehu.isad.controllers.ui.MainKud;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -25,7 +25,7 @@ public class Main extends Application {
   private void loadUI(Stage primaryStage) throws IOException {
     stage = primaryStage;
     FXMLLoader loader = new FXMLLoader(getClass().getResource("/proba.fxml"));
-    ProbaController mainController = ProbaController.getInstance();
+    MainKud mainController = MainKud.getInstance();
     loader.setController(mainController);
     root = loader.load();
   }

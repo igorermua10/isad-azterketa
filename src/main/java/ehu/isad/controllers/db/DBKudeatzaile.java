@@ -2,21 +2,20 @@ package ehu.isad.controllers.db;
 
 import ehu.isad.utils.Utils;
 
-import java.lang.reflect.InvocationTargetException;
 import java.sql.*;
 
-public class DBController {
+public class DBKudeatzaile {
 
     Connection conn=null;
-    private static final DBController controller = new DBController();
+    private static final DBKudeatzaile controller = new DBKudeatzaile();
     private final String pathToSQLiteDB = Utils.getProperties().getProperty("pathToDB"); //SQLite
 //    private final String nameOfMySQLDB = Utils.getProperties().getProperty("pathToDB"); //MySQL
 
-    private DBController() {
+    private DBKudeatzaile() {
         this.conOpen();
     }
 
-    public static DBController getController() {
+    public static DBKudeatzaile getController() {
         return controller;
     }
 
