@@ -2,7 +2,6 @@ package ehu.isad.utils;
 
 import com.google.gson.Gson;
 import ehu.isad.model.ProbaModel;
-
 import java.awt.print.Book;
 import java.io.*;
 import java.net.URL;

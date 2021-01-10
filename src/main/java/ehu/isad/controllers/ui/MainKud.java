@@ -2,8 +2,7 @@ package ehu.isad.controllers.ui;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import ehu.isad.Main;
-import ehu.isad.Mezuak;
+import ehu.isad.model.Mezuak;
 import ehu.isad.controllers.db.MezuakDBkudeatzaile;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

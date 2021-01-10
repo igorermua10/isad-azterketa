@@ -1,6 +1,6 @@
 package ehu.isad.controllers.db;
 
-import ehu.isad.Mezuak;
+import ehu.isad.model.Mezuak;
 import ehu.isad.model.ProbaModel;
 import javafx.collections.ObservableList;
 
